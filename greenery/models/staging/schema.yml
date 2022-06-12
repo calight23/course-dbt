@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_greenery__addresses
+    description: shipping addresses 
+  - name: stg_greenery__events
+    description: unique events on the platform
+  - name: stg_greenery__order_items
+    description: products associated with unique order
+  - name: stg_greenery__orders
+    description: all orders on the platform
+  - name: stg_greenery__products
+    description: all products offered on the platform
+  - name: stg_greenery__promos
+    description: promo codes that can be applied to orders
+  - name: users
+    description: all users on the platform
