@@ -22,6 +22,7 @@ renamed_recast as (
         , tracking_id as tracking_guid
         , shipping_service
         , estimated_delivery_at as estimated_delivery_at_utc
+        , delivered_at as delivered_date_utc
         , status as order_status
     FROM src_greenery_orders
 )
