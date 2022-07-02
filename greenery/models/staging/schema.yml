@@ -15,3 +15,4 @@ models:
     description: promo codes that can be applied to orders
   - name: users
     description: all users on the platform
+

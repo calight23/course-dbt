@@ -18,4 +18,4 @@ select
     stg_greenery__orders.order_status
 FROM 
     {{ref('stg_greenery__orders')}}
-LEFT JOIN {{ref('stg_greenery__promos')}} on stg_greenery__promos.promo_guid = stg_greenery__orders.promo_guid
+LEFT JOIN {{ref('stg_greenery__promos')}} on {{ref('stg_greenery__promos')}}.promo_guid = {{ref('stg_greenery__orders')}}.promo_guid
